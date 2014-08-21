@@ -1,0 +1,19 @@
+---
+title: "CodeBook"
+author: "Joraaver Chahal"
+date: "08/21/2014"
+output: html_document
+---
+
+This is the Code Book for Coursera' Getting and Cleaning Data Course Project.
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
