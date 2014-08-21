@@ -6,7 +6,6 @@
 
 <meta charset="utf-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Style-Type" content="text/css" />
 <meta name="generator" content="pandoc" />
 
 <meta name="author" content="Joraaver Chahal" />
@@ -60,12 +59,11 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 </div>
 
 
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<p><code>{r} summary(cars)</code></p>
-<p>You can also embed plots, for example:</p>
-<p><code>{r, echo=FALSE} plot(cars)</code></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<p>This is the README file for Coursera’s Getting and Cleaning Data Course Project.</p>
+<p>The one script that needs to be run is <em>run_analsysi.R</em></p>
+<p>Note that the first line of the script</p>
+<pre class="r"><code>setwd(&quot;~/Documents/Dev/R/CourseraCleaningData/CourseProject/&quot;)</code></pre>
+<p>Should be changed to fit the needs of the user. The working direct should be set such that the first folder below it is the <em>UCI HAR Dataset</em> folder</p>
 
 
 </div>
@@ -79,12 +77,12 @@ $(document).ready(function () {
 
 </script>
 
-<!-- dynamically load mathjax for compatibility with --self-contained -->
+<!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>
