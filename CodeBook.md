@@ -79,12 +79,7 @@ There are a total of 81 variables:
 Number | Variable | Type | Description | Possible Values
 -------|----------|------|-------------|----------------
 1 | Subject_Number | Numeric | Number designated for each subject in experiment | 1-30
-2 | Activity | Character | The type of activity the person was performing | WALKING
-||||| WALKING_DOWNSTAIRS
-||||| WALKING_UPSTAIRS
-||||| SITTING
-||||| STANDING
-||||| LAYING
+2 | Activity | Character | The type of activity the person was performing | WALKING, WALKING\_DOWNSTAIRS, WALKING\_UPSTAIRS, SITTING, STANDING, LAYING
 3 | tBodyAcc\_mean\_X | Numeric | Mean of body acceleration signals in the X axis in the time domain | -1 to 1
 4 |tBodyAcc\_mean\_Y | Numeric | Mean of body acceleration signals in the Y axis in the time domain | -1 to 1
 5 |tBodyAcc\_mean\_Z | Numeric | Mean of body acceleration signals in the Z axis in the time domain | -1 to 1
