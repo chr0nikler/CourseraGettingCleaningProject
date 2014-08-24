@@ -1,7 +1,7 @@
 #########################################
-# Coursera Getting and Cleaning Dat #
-# Course Project #
-# August 14th 2014 #
+# Coursera Getting and Cleaning Data    #
+# Course Project                        #
+# August 14th 2014                      #
 #########################################
 
 # My working directory. Change as needed

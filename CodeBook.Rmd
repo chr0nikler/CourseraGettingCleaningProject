@@ -137,7 +137,7 @@ set submitted here is well commented in the script *run_analysis.R* However, the
 7. Group the data by Subject_Number and Activity
 
 This last step produces a **wide tidy data set** that follows Hadley William's rules,
-and avoids any of the issues of "messy data", as set out in his paper, [Tidy Paper](http://vita.had.co.nz/papers/tidy-data.pdf)(Section 3).  
+and avoids any of the issues of "messy data", as set out in his paper, [Tidy Data](http://vita.had.co.nz/papers/tidy-data.pdf) (Section 3).  
 
 1. All column headers are variable names
 2. There is only one variable per column
